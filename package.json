@@ -1,7 +1,7 @@
 {
   "name": "multi-agent-ts-demo",
   "version": "1.0.0",
-  "description": "TypeScript Multi-Agent 架构 Demo（LangGraph 风格，零框架依赖）",
+  "description": "TypeScript Multi-Agent 架构 Demo（基于 LangGraph.js）",
   "type": "module",
   "main": "dist/index.js",
   "scripts": {
@@ -18,6 +18,12 @@
   ],
   "author": "",
   "license": "MIT",
+  "dependencies": {
+    "@langchain/core": "^1.1.16",
+    "@langchain/langgraph": "^1.2.5",
+    "zod": "^3.25.32",
+    "zod-to-json-schema": "^3.24.1"
+  },
   "devDependencies": {
     "typescript": "^5.9.3"
   }
